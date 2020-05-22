@@ -161,6 +161,37 @@ header h2 {
 	padding: 25px;
 }
 
+footer {
+	display: flex;
+}
+
+#loisirs {
+	flex: 1;
+	border: 1px solid red;
+	background-color: #FFB600;
+	text-align: center;
+	padding-top: 160px;
+}
+
+#loisirs h2 {
+	background-color: black;
+	color: #FFB600;
+	font-size: 1.2em;
+}
+
+#loisirs i {
+	font-size: 2.5em;
+	padding: 5px 5px 5px 5px;
+	font-weight: normal;
+}
+
+#recommandations {
+	flex: 2.9;
+	border: 1px solid red;
+	padding-left: 25px;
+}
+
+
 
 
 .titre {
