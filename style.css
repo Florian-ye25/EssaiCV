@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('Polices/opensans-regular-webfont.woff2') format('woff2'),
+         url('Polices/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: 'open_sansregular';
+}
+
+#bloc_page {
+	width: 900px;
+	border: 1px solid black;
+
+}
+
+header {
+	display: flex;
+	border: 1px solid black;
+}
+
+nav {
+	padding: 45px 25px 25px 25px;
+	background: #FFB600;
+	border: 1px solid black;
+	flex:0.8;
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 0px; 
+	padding : 45px 0px 0px 25px;
+}
+
+header h2 {
+	margin-top: 0px;
+	padding : 0px 0px 0px 25px;
+}
+
+#titre_principal {
+	font-size: 1.1em;
+	font-weight: normal;
+	flex: 3;
+}
+
+#first_section {
+	display: flex;
+	border: 1px solid red;
+}
+
+#contact {
+	flex: 1.2;
+	border: 1px solid red;
+	background-color: #FFB600;
+}
+
+#contact h2 {
+	padding-left: 0px;
+	background-color: black;
+	color: #FFB600;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#contact p {
+	font-size: 0.8em;
+	padding-left: 25px;
+}
+
+#formation {
+	flex: 3.4;
+	border: 1px solid red;
+	padding-left: 25px;
+}
+
+#article {
+	display: flex;
+	border: 1px solid red;
+}
+
+.dates {
+	border: 1px solid red;
+}
+
+.text {
+	margin: 15px 0px 0px 25px;
+	border: 1px solid red;
+}
+
+#second_section {
+	display: flex;
+}
+
+#about_me {
+	flex: 1.1;
+}
+
+#experience_pro {
+	flex: 3.2;
+	display: flex;
+	border: 1px solid red;
+}
+
+#about_me {
+	border: 1px solid red;
+	background-color: #FFB600;
+}
+
+#about_me h2 {
+	padding-left: 0px;
+	background-color: black;
+	color: #FFB600;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#about_me p {
+	text-align: center;
+	padding: 25px;
+	font-size: 0.8em;
+}
+
+
+
+.titre {
+	font-size: 0.7em;
+}
+
+.jaune {
+	color: #FFB600;
+}
+
+.souligné {
+	border-bottom: 1px solid #FFB600;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.point_cercle {
+	color: #FFB600;
+	font-size: 
+}
+
+.point {
+	color: #FFB600;
+	font-size: 0.4em;
+}
