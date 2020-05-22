@@ -75,6 +75,10 @@ header h2 {
 	padding-left: 25px;
 }
 
+#formation p {
+	font-size: 0.8em;
+}
+
 #article {
 	display: flex;
 	border: 1px solid red;
@@ -82,26 +86,62 @@ header h2 {
 
 .dates {
 	border: 1px solid red;
+	margin-right: 15px;
+	flex: 1;
 }
 
 .text {
 	margin: 15px 0px 0px 25px;
 	border: 1px solid red;
+	flex:2;
 }
 
 #second_section {
 	display: flex;
 }
 
+#second_section p {
+	font-size: 0.8em;
+}
+
 #about_me {
-	flex: 1.1;
+	flex: 1.085;
 }
 
 #experience_pro {
 	flex: 3.2;
 	display: flex;
 	border: 1px solid red;
+	flex-wrap: wrap;
 }
+
+ #experience_pro h2 {
+ 	padding-left: 25px;
+ 	width: 100%;
+}
+
+#second_article {
+	border: 1px solid red;
+	display: flex;
+	padding-left: 25px;
+	width: 100%;
+}
+
+.article_top {
+	border: 1px solid red;
+	margin-bottom: 25px;
+}
+
+.aside_top {
+	border: 1px solid red;
+}
+
+.article_mid {
+	border: 1px solid red;
+	margin-bottom: 80px;
+}
+
+
 
 #about_me {
 	border: 1px solid red;
@@ -119,7 +159,6 @@ header h2 {
 #about_me p {
 	text-align: center;
 	padding: 25px;
-	font-size: 0.8em;
 }
 
 
@@ -148,4 +187,8 @@ header h2 {
 .point {
 	color: #FFB600;
 	font-size: 0.4em;
+}
+
+.gras {
+	font-weight: bold;
 }
