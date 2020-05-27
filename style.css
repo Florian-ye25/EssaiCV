@@ -133,6 +133,7 @@ header h2 {
 	display: flex;
 	padding-left: 25px;
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 .article_top {
@@ -179,7 +180,6 @@ footer {
 	border: 1px solid red;
 	background-color: #FFB600;
 	text-align: center;
-	padding-top: 160px;
 }
 
 #loisirs h2 {
