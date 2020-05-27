@@ -73,7 +73,6 @@ header h2 {
 #formation h2 {
 	font-size: 1.2em;
 	text-transform: uppercase;
-	border-bottom: 1px solid #FFB600;
 	padding-bottom: 10px;
 }
 
@@ -125,7 +124,6 @@ header h2 {
  	width: 100%;
  	font-size: 1.2em;
  	text-transform: uppercase;
- 	border-bottom: 1px solid #FFB600;
 }
 
 #experience_pro i {
@@ -212,7 +210,6 @@ footer {
 #recommandations h2 {
 	font-size: 1.2em;
 	text-transform: uppercase;
-	border-bottom: 1px solid #FFB600;
 	padding-bottom: 10px;
 }
 
@@ -265,3 +262,6 @@ footer {
 	font-weight: bold;
 }
 
+.souligné {
+	border-bottom: 1px solid #FFB600;
+}
