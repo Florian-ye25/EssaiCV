@@ -191,7 +191,17 @@ footer {
 	padding-left: 25px;
 }
 
+#element {
+	display: flex;
+}
 
+#element_1 {
+	flex: 1;
+}
+
+#element_2 {
+	flex: 1;
+}
 
 
 .titre {
