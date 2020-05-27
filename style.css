@@ -102,6 +102,9 @@ header h2 {
 	flex:2;
 }
 
+
+
+
 #second_section {
 	display: flex;
 }
@@ -111,7 +114,7 @@ header h2 {
 }
 
 #about_me {
-	flex: 1.085;
+	flex: 1.09;
 }
 
 #experience_pro {
@@ -150,7 +153,9 @@ header h2 {
 	margin-bottom: 80px;
 }
 
-
+.aside_mid {
+	border: 1px solid red;
+}
 
 #about_me {
 	border: 1px solid red;
@@ -176,7 +181,7 @@ footer {
 }
 
 #loisirs {
-	flex: 1;
+	flex: 1.03;
 	border: 1px solid red;
 	background-color: #FFB600;
 	text-align: center;
