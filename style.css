@@ -75,6 +75,10 @@ header h2 {
 	padding-left: 25px;
 }
 
+#formation h2 {
+	font-size: 1.2em;
+}
+
 #formation p {
 	font-size: 0.8em;
 }
@@ -118,6 +122,7 @@ header h2 {
  #experience_pro h2 {
  	padding-left: 25px;
  	width: 100%;
+ 	font-size: 1.2em;
 }
 
 #second_article {
@@ -189,6 +194,10 @@ footer {
 	flex: 2.9;
 	border: 1px solid red;
 	padding-left: 25px;
+}
+
+#recommandations h2 {
+	font-size: 1.2em;
 }
 
 #element {
