@@ -62,6 +62,7 @@ header h2 {
 	color: #FFB600;
 	text-align: center;
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 #contact p {
@@ -77,6 +78,7 @@ header h2 {
 
 #formation h2 {
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 #formation p {
@@ -123,6 +125,7 @@ header h2 {
  	padding-left: 25px;
  	width: 100%;
  	font-size: 1.2em;
+ 	text-transform: uppercase;
 }
 
 #second_article {
@@ -159,6 +162,7 @@ header h2 {
 	color: #FFB600;
 	text-align: center;
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 #about_me p {
@@ -182,6 +186,7 @@ footer {
 	background-color: black;
 	color: #FFB600;
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 #loisirs i {
@@ -198,6 +203,7 @@ footer {
 
 #recommandations h2 {
 	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
 #element {
