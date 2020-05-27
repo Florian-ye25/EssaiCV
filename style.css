@@ -141,11 +141,12 @@ header h2 {
 
 .article_top {
 	border: 1px solid red;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
 
 .aside_top {
 	border: 1px solid red;
+	padding-bottom: 25px;
 }
 
 .article_mid {
@@ -155,6 +156,11 @@ header h2 {
 
 .aside_mid {
 	border: 1px solid red;
+	padding-bottom: 25px;
+}
+
+.text p {
+	margin: 5px 0px 0px 0px;
 }
 
 #about_me {
