@@ -206,6 +206,10 @@ footer {
 	text-transform: uppercase;
 }
 
+#recommandations p {
+	font-size: 0.8em;
+}
+
 #element {
 	display: flex;
 }
