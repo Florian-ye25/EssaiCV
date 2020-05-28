@@ -298,6 +298,9 @@ footer {
 		width: auto;
 	}
 
+	#bloc_page p {
+		font-size: 0.9em;
+	}
 	nav {
 		display: none;
 	}
