@@ -12,6 +12,8 @@ body {
 
 #bloc_page {
 	width: 900px;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -300,6 +302,43 @@ footer {
 		display: none;
 	}
 
+	#first_section {
+		flex-direction: column;
+		padding-bottom: 25px;
+	}
 
+	#contact h2 {
+		text-align: left;
+		padding-left: 25px;
+		background-color: white;
+		color: black;
+	}
 
+	#contact {
+		background-color: white;
+	}
+
+	#second_section {
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+
+	#about_me {
+		background-color: white;
+	}
+
+	#about_me h2 {
+		text-align: left;
+		padding-left: 25px;
+		color: black;
+		background-color: white;
+	}
+
+	#about_me p {
+		text-align: left;
+	}
+
+	#loisirs {
+		display: none;
+	}
 }
