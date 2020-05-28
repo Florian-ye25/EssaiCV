@@ -315,6 +315,7 @@ footer {
 		padding-bottom: 25px;
 	}
 
+
 	#contact h2 {
 		text-align: left;
 		margin-left: 25px;
@@ -327,9 +328,14 @@ footer {
 		background-color: white;
 	}
 
+
 	#second_section {
 		flex-direction: column;
 		flex-direction: column-reverse;
+	}
+
+	.article_mid {
+		margin-bottom: 55px;
 	}
 
 	#about_me {
