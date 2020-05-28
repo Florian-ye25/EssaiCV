@@ -298,23 +298,15 @@ footer {
 		width: auto;
 	}
 
-	#bloc_page p {
-		font-size: 0.9em;
-	}
-
-	#bloc_page h2 {
-		font-size: 1.1em;
-	}
-
 	nav {
 		display: none;
 	}
+
 
 	#first_section {
 		flex-direction: column;
 		padding-bottom: 25px;
 	}
-
 
 	#contact h2 {
 		text-align: left;
@@ -327,7 +319,6 @@ footer {
 	#contact {
 		background-color: white;
 	}
-
 
 	#second_section {
 		flex-direction: column;
