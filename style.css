@@ -16,6 +16,7 @@ body {
 
 header {
 	display: flex;
+	border: 1px solid red;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
 	background: #FFB600;
 	flex:0.8;
 	text-align: center;
+	border: 1px solid red;
 }
 
 header h1 {
@@ -39,15 +41,18 @@ header h2 {
 	font-size: 1.1em;
 	font-weight: normal;
 	flex: 3;
+	border: 1px solid red;
 }
 
 #first_section {
 	display: flex;
+	border: 1px solid red;
 }
 
 #contact {
 	flex: 1.206;
 	background-color: #FFB600;
+	border: 1px solid red;
 }
 
 #contact h2 {
@@ -68,6 +73,7 @@ header h2 {
 #formation {
 	flex: 3.4;
 	padding-left: 25px;
+	border: 1px solid red;
 }
 
 #formation h2 {
@@ -87,21 +93,25 @@ header h2 {
 
 #article {
 	display: flex;
+	border: 1px solid red;
 }
 
 .dates {
 	margin-right: 15px;
 	flex: 1;
+	border: 1px solid red;
 }
 
 .text {
 	margin: 15px 0px 0px 25px;
 	flex:2;
+	border: 1px solid red;
 }
 
 
 #second_section {
 	display: flex;
+	border: 1px solid red;
 }
 
 #second_section p {
@@ -110,12 +120,14 @@ header h2 {
 
 #about_me {
 	flex: 1.095;
+	border: 1px solid red;
 }
 
 #experience_pro {
 	flex: 3.2;
 	display: flex;
 	flex-wrap: wrap;
+	border: 1px solid red;
 }
 
  #experience_pro h2 {
@@ -136,22 +148,27 @@ header h2 {
 	padding-left: 25px;
 	width: 100%;
 	margin-bottom: 40px;
+	border: 1px solid red;
 }
 
 .article_top {
 	margin-bottom: 30px;
+	border: 1px solid red;
 }
 
 .aside_top {
 	padding-bottom: 25px;
+	border: 1px solid red;
 }
 
 .article_mid {
 	margin-bottom: 80px;
+	border: 1px solid red;
 }
 
 .aside_mid {
 	padding-bottom: 25px;
+	border: 1px solid red;
 }
 
 .text p {
@@ -160,6 +177,7 @@ header h2 {
 
 #about_me {
 	background-color: #FFB600;
+	border: 1px solid red;
 }
 
 #about_me h2 {
@@ -179,6 +197,7 @@ header h2 {
 
 footer {
 	display: flex;
+	border: 1px solid red;
 }
 
 #loisirs {
@@ -186,6 +205,7 @@ footer {
 	background-color: #FFB600;
 	text-align: center;
 	padding-top: 25px;
+	border: 1px solid red;
 }
 
 #loisirs h2 {
@@ -205,6 +225,7 @@ footer {
 #recommandations {
 	flex: 2.9;
 	padding-left: 25px;
+	border: 1px solid red;
 }
 
 #recommandations h2 {
@@ -224,14 +245,17 @@ footer {
 
 #element {
 	display: flex;
+	border: 1px solid red;
 }
 
 #element_1 {
 	flex: 1;
+	border: 1px solid red;
 }
 
 #element_2 {
 	flex: 1;
+	border: 1px solid red;
 }
 
 
@@ -264,4 +288,18 @@ footer {
 
 .souligné {
 	border-bottom: 1px solid #FFB600;
+}
+
+@media screen and (max-width: 1280px) {
+
+	#bloc_page {
+		width: auto;
+	}
+
+	nav {
+		display: none;
+	}
+
+
+
 }
