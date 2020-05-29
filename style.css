@@ -349,3 +349,60 @@ footer {
 		display: none;
 	}
 }
+
+@media handheld {
+	#bloc_page {
+		width: auto;
+	}
+
+	nav {
+		display: none;
+	}
+
+
+	#first_section {
+		flex-direction: column;
+		padding-bottom: 25px;
+	}
+
+	#contact h2 {
+		text-align: left;
+		margin-left: 25px;
+		background-color: white;
+		color: black;
+		border-bottom: 1px solid #FFB600;
+	}
+
+	#contact {
+		background-color: white;
+	}
+
+	#second_section {
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+
+	.article_mid {
+		margin-bottom: 55px;
+	}
+
+	#about_me {
+		background-color: white;
+	}
+
+	#about_me h2 {
+		text-align: left;
+		margin-left: 25px;
+		color: black;
+		background-color: white;
+		border-bottom: 1px solid #FFB600;
+	}
+
+	#about_me p {
+		text-align: left;
+	}
+
+	#loisirs {
+		display: none;
+	}
+}
