@@ -59,8 +59,8 @@ section h2, footer h2 {
 	border-bottom: 1px solid #FFB600;
 }
 
-body i {
-	color: #FFB600;
+#formation i, #experience_pro i, #recommandations i {
+	color: #FFB600; 
 }
 
 #contact {
@@ -252,14 +252,8 @@ footer {
 	border: 1px solid red;
 }
 
-#element_1 {
+#element p {
 	flex: 1;
-	border: 1px solid red;
-}
-
-#element_2 {
-	flex: 1;
-	border: 1px solid red;
 }
 
 
@@ -274,11 +268,6 @@ footer {
 
 .upper {
 	text-transform: uppercase;
-}
-
-.point_cercle {
-	color: #FFB600;
-	font-size: 
 }
 
 .point {
