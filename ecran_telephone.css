@@ -1,4 +1,4 @@
-@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 980px) {
 	#bloc_page {
 		width: auto;
 	}	
@@ -7,8 +7,31 @@
 		width: 100%;
 	}
 
+	header h1 {
+		font-size: 3.6em;
+	}
+
 	header h2 {
-		font-size: 3em;
+		font-size: 2.4em;
+	}
+
+	section h2, footer h2 {
+		width: 40%;
+		font-size: 2.4em;
+		border-bottom: 3px solid #FFB600;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	aside p {
+		width: 95%;
+		text-align: justify;
+	}
+
+	.souligné {
+		border-bottom: 3px solid #FFB600;
 	}
 }
 

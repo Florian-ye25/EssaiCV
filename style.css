@@ -67,48 +67,48 @@ section h2, footer h2 {
 	border-bottom: 1px solid #FFB600;
 }
 
-#formation i, #experience_pro i, #recommandations i {
+.formation i, #experience_pro i, #recommandations i {
 	color: #FFB600; 
 }
 
-.contact {
-	background-color: #FFB600;
+aside {
 	width: 26%;
+	background-color: #FFB600;
 }
 
-.contact h2 {
-	padding-left: 0px;
+aside h2 {
 	background-color: black;
 	color: #FFB600;
+	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.2em;
-	text-transform: uppercase;
 	padding: 5px 0px 5px 0px;
 }
 
 aside p {
-	font-size: 
+	font-size: 0.8em;
 	padding-left: 25px;
+	padding-right: 25px;
 }
 
-#formation {
-	flex: 3.4;
+.formation {
+	width: 71%;
 	padding-left: 25px;
 	border: 1px solid red;
 }
 
-#formation h2 {
+.formation h2 {
 	font-size: 1.2em;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 }
 
-#formation i {
+.formation i {
 	font-size: 1.2em;
 	padding-right: 10px;
 }
 
-#formation p {
+.formation p {
 	font-size: 0.8em;
 }
 
@@ -129,10 +129,6 @@ aside p {
 	border: 1px solid red;
 }
 
-#about_me {
-	flex: 1.095;
-	border: 1px solid red;
-}
 
 #experience_pro {
 	flex: 3.2;
@@ -212,7 +208,7 @@ footer {
 }
 
 #loisirs {
-	flex: 1.03;
+	width: 26%;
 	background-color: #FFB600;
 	text-align: center;
 	padding-top: 25px;
@@ -234,7 +230,7 @@ footer {
 }
 
 #recommandations {
-	flex: 2.9;
+	width: 71%;
 	padding-left: 25px;
 	border: 1px solid red;
 }
