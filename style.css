@@ -55,6 +55,14 @@ section p {
 	font-size: 0.8em;
 }
 
+section h2, footer h2 {
+	border-bottom: 1px solid #FFB600;
+}
+
+body i {
+	color: #FFB600;
+}
+
 #contact {
 	flex: 1.206;
 	background-color: #FFB600;
@@ -331,8 +339,6 @@ footer {
 		text-align: left;
 		margin-left: 25px;
 		color: black;
-		background-color: white;
-		border-bottom: 1px solid #FFB600;
 	}
 
 	#about_me p {
