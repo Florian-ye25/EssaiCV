@@ -1,0 +1,43 @@
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+	#bloc_page {
+		width: auto;
+	}
+
+	nav {
+		display: none;
+	}
+
+	section {
+		flex-direction: column;
+		padding-bottom: 25px;
+	}
+
+	#contact h2, #about_me h2 {
+		color: black;
+		background-color: white;
+		text-align: left;
+		margin-left: 25px;
+	}
+
+	#contact, #about_me {
+		background-color: white;
+	}
+
+	.second_section {
+		flex-direction: column-reverse;
+	}
+
+	#second_section {
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+
+	.article_mid {
+		margin-bottom: 55px;
+	}
+
+
+	#loisirs {
+		display: none;
+	}
+}
