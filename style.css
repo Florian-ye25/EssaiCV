@@ -15,6 +15,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
+	border: 1px solid red;
 }
 
 header {
@@ -23,29 +24,34 @@ header {
 }
 
 nav {
-	padding: 45px 25px 25px 25px;
 	background: #FFB600;
-	flex:0.8;
+	width: 26%;
 	text-align: center;
 	border: 1px solid red;
 }
 
+nav img {
+	padding: 35px 0px 25px 0px;
+}
+
 header h1 {
 	margin-bottom: 0px; 
-	padding : 45px 0px 0px 25px;
+	padding-left: 25px;
 	font-size: 2.4em;
+	text-transform: uppercase;
 }
 
 header h2 {
 	margin-top: 0px;
 	padding : 0px 0px 0px 25px;
-	font-size: 1.8em;
+	font-size: 1.2em;
 }
 
 #titre_principal {
 	font-weight: normal;
-	flex: 3;
+	width: 74%;
 	border: 1px solid red;
+	padding-top: 35px;
 }
 
 section {
@@ -65,13 +71,12 @@ section h2, footer h2 {
 	color: #FFB600; 
 }
 
-#contact {
-	flex: 1.206;
+.contact {
 	background-color: #FFB600;
-	border: 1px solid red;
+	width: 26%;
 }
 
-#contact h2 {
+.contact h2 {
 	padding-left: 0px;
 	background-color: black;
 	color: #FFB600;
@@ -81,8 +86,8 @@ section h2, footer h2 {
 	padding: 5px 0px 5px 0px;
 }
 
-#contact p {
-	font-size: 0.8em;
+aside p {
+	font-size: 
 	padding-left: 25px;
 }
 

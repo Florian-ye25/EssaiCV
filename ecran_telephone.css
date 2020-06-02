@@ -1,0 +1,15 @@
+@media all and (max-device-width: 480px) {
+	#bloc_page {
+		width: auto;
+	}	
+
+	#titre_principal {
+		width: 100%;
+	}
+
+	header h2 {
+		font-size: 3em;
+	}
+}
+
+
