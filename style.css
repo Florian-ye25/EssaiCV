@@ -46,9 +46,13 @@ header h2 {
 	border: 1px solid red;
 }
 
-#first_section {
+section {
 	display: flex;
 	border: 1px solid red;
+}
+
+section p {
+	font-size: 0.8em;
 }
 
 #contact {
@@ -108,16 +112,6 @@ header h2 {
 	margin: 15px 0px 0px 25px;
 	flex:2;
 	border: 1px solid red;
-}
-
-
-#second_section {
-	display: flex;
-	border: 1px solid red;
-}
-
-#second_section p {
-	font-size: 0.8em;
 }
 
 #about_me {
