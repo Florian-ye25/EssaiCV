@@ -11,37 +11,31 @@
 		display: none;
 	}
 
+	aside {
+		background-color: white ;
+		width: 94%;
+	}
+
+	aside h2 {
+		background-color: white;
+		color: black;
+	}
+
+	article {
+		width: 94%;
+	}
+
 	section {
 		flex-direction: column;
 		padding-bottom: 25px;
 	}
 
-	aside h2 {
-		color: black;
-		background-color: white;
-		text-align: left;
-		margin-left: 25px;
-	}
-
-	aside {
-		background-color: white;
-	}
-
-	.second_section {
-		flex-direction: column-reverse;
-	}
-
-	#second_section {
-		flex-direction: column;
-		flex-direction: column-reverse;
-	}
-
-	.article_mid {
-		margin-bottom: 55px;
-	}
-
 
 	#loisirs {
 		display: none;
+	}
+
+	.recommandations {
+		width: 94%;
 	}
 }
