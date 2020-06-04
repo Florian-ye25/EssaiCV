@@ -108,6 +108,7 @@ article p {
 article i {
 	padding-right: 10px;
 	padding-left: 5px;
+	border: 1px solid red;
 }
 
 .article {
@@ -117,12 +118,20 @@ article i {
 
 .dates {
 	width: 30%;
+	display: flex;
 }
 
 .text {
 	width: 65%;
 }
 
+.point_cercle {
+	margin-top: 10px;
+}
+
+.point {
+	margin-top: 18px;
+}
 
 footer {
 	display: flex;
