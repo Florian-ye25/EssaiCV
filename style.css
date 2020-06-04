@@ -6,6 +6,11 @@
     font-style: normal;
 
 }
+
+.cadre_bleu {
+	border: 2px solid blue;
+}
+
 body {
 	font-family: 'open_sansregular';
 }
@@ -34,6 +39,7 @@ nav img {
 	padding: 35px 0px 25px 0px;
 }
 
+
 header h1 {
 	margin-bottom: 0px; 
 	padding-left: 25px;
@@ -45,6 +51,14 @@ header h2 {
 	margin-top: 0px;
 	padding : 0px 0px 0px 25px;
 	font-size: 1.2em;
+	border-bottom: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	padding : 0px 0px 0px 25px;
+	border-bottom: 1px solid #FFB600;
+	width: 90%;
 }
 
 #titre_principal {
@@ -63,11 +77,7 @@ section p {
 	font-size: 0.8em;
 }
 
-section h2, footer h2 {
-	border-bottom: 1px solid #FFB600;
-}
-
-.formation i, #experience_pro i, #recommandations i {
+i {
 	color: #FFB600; 
 }
 
@@ -76,13 +86,14 @@ aside {
 	background-color: #FFB600;
 }
 
-aside h2 {
+aside h2, #loisirs h2 {
 	background-color: black;
 	color: #FFB600;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.2em;
 	padding: 5px 0px 5px 0px;
+	width: 100%;
 }
 
 aside p {
@@ -130,14 +141,14 @@ aside p {
 }
 
 
-#experience_pro {
+.experience_pro {
 	flex: 3.2;
 	display: flex;
 	flex-wrap: wrap;
 	border: 1px solid red;
 }
 
- #experience_pro h2 {
+ .experience_pro h2 {
  	margin-left: 25px;
  	padding-bottom: 10px;
  	width: 100%;
@@ -145,7 +156,7 @@ aside p {
  	text-transform: uppercase;
 }
 
-#experience_pro i {
+.experience_pro i {
 	font-size: 1.2em;
 	padding-right: 10px;
 }
@@ -227,26 +238,27 @@ footer {
 	font-size: 2.5em;
 	padding: 5px 5px 5px 5px;
 	font-weight: normal;
+	color: black;
 }
 
-#recommandations {
+.recommandations {
 	width: 71%;
 	padding-left: 25px;
 	border: 1px solid red;
 }
 
-#recommandations h2 {
+.recommandations h2 {
 	font-size: 1.2em;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 }
 
-#recommandations i {
+.recommandations i {
 	font-size: 1.2em;
 	padding-right: 10px;
 }
 
-#recommandations p {
+.recommandations p {
 	font-size: 0.8em;
 }
 
