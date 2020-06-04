@@ -50,15 +50,15 @@ header h1 {
 header h2 {
 	margin-top: 0px;
 	padding : 0px 0px 0px 25px;
-	font-size: 1.2em;
 	border-bottom: 0;
+	text-transform: none;
 }
 
 h2 {
 	text-transform: uppercase;
-	padding : 0px 0px 0px 25px;
 	border-bottom: 1px solid #FFB600;
 	width: 90%;
+	font-size: 1.2em;
 }
 
 #titre_principal {
@@ -73,7 +73,7 @@ section {
 	border: 1px solid red;
 }
 
-section p {
+p {
 	font-size: 0.8em;
 }
 
@@ -97,121 +97,41 @@ aside h2, #loisirs h2 {
 }
 
 aside p {
-	font-size: 0.8em;
 	padding-left: 25px;
 	padding-right: 25px;
 }
 
-.formation {
+article {
 	width: 71%;
-	padding-left: 25px;
+	padding: 15px 0px 20px 25px;
 	border: 1px solid red;
 }
 
-.formation h2 {
-	font-size: 1.2em;
-	text-transform: uppercase;
-	padding-bottom: 10px;
+article p {
+	padding-top: 0px;
 }
 
-.formation i {
-	font-size: 1.2em;
+article i, #recommandations i {
 	padding-right: 10px;
+	padding-left: 5px;
 }
 
-.formation p {
-	font-size: 0.8em;
-}
-
-#article {
-	display: flex;
-	border: 1px solid red;
-}
-
-.dates {
-	margin-right: 15px;
-	flex: 1;
-	border: 1px solid red;
-}
-
-.text {
-	margin: 15px 0px 0px 25px;
-	flex:2;
-	border: 1px solid red;
-}
-
-
-.experience_pro {
-	flex: 3.2;
+.article {
 	display: flex;
 	flex-wrap: wrap;
 	border: 1px solid red;
 }
 
- .experience_pro h2 {
- 	margin-left: 25px;
- 	padding-bottom: 10px;
- 	width: 100%;
- 	font-size: 1.2em;
- 	text-transform: uppercase;
-}
-
-.experience_pro i {
-	font-size: 1.2em;
-	padding-right: 10px;
-}
-
-#second_article {
-	display: flex;
-	padding-left: 25px;
-	width: 100%;
-	margin-bottom: 40px;
+.dates {
 	border: 1px solid red;
+	width: 30%;
 }
 
-.article_top {
-	margin-bottom: 30px;
+.text {
 	border: 1px solid red;
+	width: 65%;
 }
 
-.aside_top {
-	padding-bottom: 25px;
-	border: 1px solid red;
-}
-
-.article_mid {
-	margin-bottom: 80px;
-	border: 1px solid red;
-}
-
-.aside_mid {
-	padding-bottom: 25px;
-	border: 1px solid red;
-}
-
-.text p {
-	margin: 5px 0px 0px 0px;
-}
-
-#about_me {
-	background-color: #FFB600;
-	border: 1px solid red;
-}
-
-#about_me h2 {
-	padding-left: 0px;
-	background-color: black;
-	color: #FFB600;
-	text-align: center;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	padding: 5px 0px 5px 0px;
-}
-
-#about_me p {
-	text-align: center;
-	padding: 25px;
-}
 
 footer {
 	display: flex;
