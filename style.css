@@ -7,9 +7,6 @@
 
 }
 
-.cadre_bleu {
-	border: 2px solid blue;
-}
 
 body {
 	font-family: 'open_sansregular';
@@ -20,19 +17,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	border: 1px solid red;
 }
 
 header {
 	display: flex;
-	border: 1px solid red;
 }
 
 nav {
 	background: #FFB600;
 	width: 26%;
 	text-align: center;
-	border: 1px solid red;
 }
 
 nav img {
@@ -64,13 +58,12 @@ h2 {
 #titre_principal {
 	font-weight: normal;
 	width: 74%;
-	border: 1px solid red;
 	padding-top: 35px;
 }
 
+
 section {
 	display: flex;
-	border: 1px solid red;
 }
 
 p {
@@ -80,6 +73,7 @@ p {
 i {
 	color: #FFB600; 
 }
+
 
 aside {
 	width: 26%;
@@ -101,17 +95,17 @@ aside p {
 	padding-right: 25px;
 }
 
-article {
+
+article, .recommandations {
 	width: 71%;
 	padding: 15px 0px 20px 25px;
-	border: 1px solid red;
 }
 
 article p {
 	padding-top: 0px;
 }
 
-article i, #recommandations i {
+article i {
 	padding-right: 10px;
 	padding-left: 5px;
 }
@@ -119,39 +113,26 @@ article i, #recommandations i {
 .article {
 	display: flex;
 	flex-wrap: wrap;
-	border: 1px solid red;
 }
 
 .dates {
-	border: 1px solid red;
 	width: 30%;
 }
 
 .text {
-	border: 1px solid red;
 	width: 65%;
 }
 
 
 footer {
 	display: flex;
-	border: 1px solid red;
 }
 
 #loisirs {
 	width: 26%;
 	background-color: #FFB600;
 	text-align: center;
-	padding-top: 25px;
-	border: 1px solid red;
-}
-
-#loisirs h2 {
-	background-color: black;
-	color: #FFB600;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	padding: 5px 0px 5px 0px;
+	padding-top: 55px;
 }
 
 #loisirs i {
@@ -163,14 +144,6 @@ footer {
 
 .recommandations {
 	width: 71%;
-	padding-left: 25px;
-	border: 1px solid red;
-}
-
-.recommandations h2 {
-	font-size: 1.2em;
-	text-transform: uppercase;
-	padding-bottom: 10px;
 }
 
 .recommandations i {
@@ -182,24 +155,18 @@ footer {
 	font-size: 0.8em;
 }
 
-#element {
+.element {
 	display: flex;
-	border: 1px solid red;
 }
 
-#element p {
+.element p {
 	flex: 1;
 }
 
 
-.titre {
-	font-size: 0.7em;
-}
-
 .jaune {
 	color: #FFB600;
 }
-
 
 .upper {
 	text-transform: uppercase;
@@ -216,4 +183,8 @@ footer {
 
 .souligné {
 	border-bottom: 1px solid #FFB600;
+}
+
+.cadre_rouge {
+	border: 1px solid red;
 }
