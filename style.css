@@ -64,6 +64,7 @@ h2 {
 
 section {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 p {
@@ -81,7 +82,7 @@ aside {
 }
 
 aside h2, #loisirs h2 {
-	background-color: black;
+	background-color: #263238;
 	color: #FFB600;
 	text-transform: uppercase;
 	text-align: center;
@@ -95,8 +96,12 @@ aside p {
 	padding-right: 25px;
 }
 
+article {
+	width: 70%;
+	padding: 15px 0px 20px 25px;
+}
 
-article, .recommandations {
+.recommandations {
 	width: 71%;
 	padding: 15px 0px 20px 25px;
 }
@@ -146,9 +151,14 @@ footer {
 
 #loisirs i {
 	font-size: 2.5em;
-	padding: 5px 5px 5px 5px;
+	padding: 5px 0px 5px 0px;
 	font-weight: normal;
-	color: black;
+	color: #263238;
+}
+
+#loisirs p {
+	display: flex;
+	justify-content: space-around;
 }
 
 .recommandations {

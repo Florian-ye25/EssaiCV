@@ -7,18 +7,26 @@
 		width: 100%;
 	}
 
+	header {
+		flex-direction: column;
+	}
+
 	nav {
-		display: none;
+		width: 100%;
+	}
+
+
+	#bloc_page aside{
+		order: 3;
 	}
 
 	aside {
-		background-color: white ;
-		width: 94%;
+		width: 100%;
 	}
 
 	aside h2 {
-		background-color: white;
-		color: black;
+		background-color: #263238;
+		color: #FFB600;
 	}
 
 	article {
@@ -27,15 +35,24 @@
 
 	section {
 		flex-direction: column;
-		padding-bottom: 25px;
+	}
+
+	.dates {
+		margin: 10px 0px 10px 0px;
+	}
+
+	.text {
+		margin-bottom: 10px;
 	}
 
 
 	#loisirs {
-		display: none;
+		width: 100%;
 	}
 
 	.recommandations {
-		width: 94%;
+		display: none;
 	}
+	
+	
 }
