@@ -1,4 +1,4 @@
-@media all and (max-device-width: 980px) {
+@media all and (width < 980px) {
 	#bloc_page {
 		width: auto;
 	}	

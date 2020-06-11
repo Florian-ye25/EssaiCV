@@ -113,7 +113,6 @@ article p {
 article i {
 	padding-right: 10px;
 	padding-left: 5px;
-	border: 1px solid red;
 }
 
 .article {
@@ -204,6 +203,3 @@ footer {
 	border-bottom: 1px solid #FFB600;
 }
 
-.cadre_rouge {
-	border: 1px solid red;
-}
